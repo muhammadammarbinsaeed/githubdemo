@@ -1,14 +1,14 @@
 import React from 'react';
 import { SafeAreaView, StyleSheet } from 'react-native';
 import Header from './src/components/header';
+import About from './src/components/about';
 // import About from './components/About'; // Use in merge scenario
 
 const App = () => {
   return (
     <SafeAreaView style={styles.container}>
       <Header />
-      {/* Uncomment this during merge demo */}
-      {/* <About /> */}
+      <About />
     </SafeAreaView>
   );
 };
